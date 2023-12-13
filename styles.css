@@ -10,9 +10,9 @@ header {
 }
 
 #portfolio {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; /* adjust this value to add space between the images */
 }
 
 .portfolio-image {
@@ -31,4 +31,4 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-}s
+}
