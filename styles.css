@@ -1,34 +1,23 @@
-body {
-    font-family: Arial, sans-serif;
+.head {
+    font-family: arial, sans-serif;
 }
 
-header {
-    background-color: #333;
-    color: white;
-    padding: 10px;
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li button {
+    display: block;
+    color: black;
     text-align: center;
-}
-
-#portfolio {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px; /* adjust this value to add space between the images */
-}
-
-.portfolio-image {
-    transition: transform 0.3s ease-in-out;
-}
-
-.portfolio-image:hover {
-    transform: scale(1.01);
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-color: aquamarine;
 }
