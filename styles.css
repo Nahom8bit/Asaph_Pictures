@@ -15,6 +15,14 @@ header {
     justify-content: space-around;
 }
 
+.portfolio-image {
+    transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-image:hover {
+    transform: scale(1.01);
+}
+
 footer {
     background-color: #333;
     color: white;
